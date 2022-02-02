@@ -4,7 +4,7 @@ body {
 
 main {
   margin-top: 0px;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   background: #EBECFB;
   min-height: calc(100vh - 90px);
   font-family: 'Arial';
@@ -45,112 +45,80 @@ main {
 .feature-cards1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
 }
 
 .feature-cards2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
-}
-
-.feature1 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
 }
 
 .feature1-row1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
 .feature1-row2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
-}
-
-.feature2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
 }
 
 .feature2-row1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
 .feature2-row2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
-}
-
-.feature3 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
 }
 
 .feature3-row1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
 .feature3-row2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
-}
-
-.feature4 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
-  grid-gap: 1rem;
 }
 
 .feature4-row1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
 .feature4-row2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 3fr;
-      grid-template-columns: 2fr 3fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
@@ -172,7 +140,7 @@ main {
 
 .card-single1 p {
   color: #797979;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
@@ -298,14 +266,17 @@ main {
 
 .feature-cards1 p {
   font-size: 0.8em;
+  color: #797979;
 }
 
 .feature-cards2 p {
   font-size: 0.8em;
+  color: #797979;
 }
 
 .activity-title {
-  margin-top: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   font-size: 1.2em;
 }
 
