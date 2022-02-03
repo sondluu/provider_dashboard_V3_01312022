@@ -153,13 +153,25 @@ main {
   color: white;
 }
 
-.card-single2 {
+.outcome-cards1 {
+  margin-top: 2rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
-  padding: 0.5rem 0.5rem 0rem 1.5rem;
-  border-radius: 10px;
+  padding: 0.5rem 2rem 0rem 1.5rem;
+  border-radius: 7px 7px 0px 0px;
+  text-align: center;
+}
+
+.outcome-cards2 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: white;
+  padding: 0.5rem 5rem 01rem 1.5rem;
+  border-radius: 0px 0px 7px 7px;
+  text-align: center;
 }
 
 .card-single2 p {
@@ -203,7 +215,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
 }
 
@@ -225,7 +237,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
 }
 
@@ -239,7 +251,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
   margin-top: 1rem;
 }
@@ -254,7 +266,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
   margin-top: 1rem;
 }
@@ -275,7 +287,7 @@ main {
 }
 
 .activity-title {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 1.2em;
 }
